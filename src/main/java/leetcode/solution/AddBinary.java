@@ -33,14 +33,10 @@ public class AddBinary {
             if (la >= 0) {
                 char ca = a.charAt(la);
                 na = Integer.parseInt(String.valueOf(ca));
-            } else {
-                na = 0;
             }
             if (lb >= 0) {
                 char cb = b.charAt(lb);
                 nb = Integer.parseInt(String.valueOf(cb));
-            } else {
-                nb = 0;
             }
             int re = na + nb + carry;
             if (re == 3) {
